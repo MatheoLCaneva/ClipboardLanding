@@ -1,0 +1,9 @@
+@mixin botonVerde {
+    cursor: pointer;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: hsl(171, 66%, 44%);
+}

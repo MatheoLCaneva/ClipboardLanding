@@ -1,0 +1,191 @@
+.header {
+
+    .header-background {
+        background-image: url(../images/bg-header-desktop.png);
+        background-position-x: right;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .header-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            color: $titulos;
+            margin-bottom: 18px;
+
+        }
+
+        sub {
+            color: $gris;
+            font-size: 1rem;
+            margin-bottom: 18px;
+        }
+    }
+}
+
+.button-iOS {
+    @include botonVerde;
+}
+
+.button-Mac {
+    @extend .button-iOS;
+    background-color: hsl(233, 100%, 69%);
+    border: hsl(233, 100%, 69%);
+}
+
+.main_subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+
+    h2 {
+        color: $titulos;
+    }
+
+    p {
+        color: $gris;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+.primeras_descripciones {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+
+    img{
+         width: 30%;
+    }
+
+    .primeras_descripciones-derecha {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8rem;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+    }
+
+    div {
+        h3 {
+            color: $titulos;
+        }
+
+        p {
+            color: $gris;
+        }
+    }
+}
+
+.segunda_descripcion {
+    text-align: center;
+    margin-top: 4rem;
+
+    h3 {
+        color: $titulos;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $gris;
+    }
+
+    img {
+        margin: 4rem 0;
+        width: 40%;
+    }
+}
+
+.servicios {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+    .servicios-servicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        img {
+            width: 10%;
+        }
+
+        h4 {
+            margin: 1rem 0;
+            color: $titulos;
+        }
+
+        p {
+            color: $gris;
+        }
+    }
+}
+
+.sponsors {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 8%;
+    }
+}
+
+.main-cierre {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 8rem;
+
+    h3{
+        color: $titulos;
+        font-size: 1.5rem;
+    }
+    p{
+        color: $gris;
+        margin: 1.7rem 0;
+    }
+}
+
+footer{
+    background-color: rgb(245, 244, 244);
+    margin-top: 5rem;
+
+    .footer-secciones{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3rem 0;
+
+        .footer-contenido:last-child{
+            margin-right: 23rem;
+        }
+        
+        .footer-contenido{
+            align-self: center;
+        }
+    }
+
+    .footer-logo{
+        width: 4%;
+    }
+    .logos{
+        align-self: center;
+
+        .logos-medio{
+            padding: 0 2rem;
+        }
+    }
+}
