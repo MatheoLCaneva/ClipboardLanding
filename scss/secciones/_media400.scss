@@ -1,0 +1,40 @@
+@media (max-width:480px){
+
+    br{
+        display: none;
+    }
+
+    .header{
+        .header-texto{
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+        .header_buttons{
+            display: flex;
+            flex-direction: column;
+
+            .button-iOS{
+                margin: .5rem 0;
+            }
+        }
+    }
+    .main_subtitulo{
+        margin-top: 53px;
+    }
+    .segunda_descripcion{
+        margin: 0;
+    }
+
+    .main-cierre{
+        .main-cierre-botones{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .button-iOS{
+                margin: .5rem 0;
+            }
+        }
+    }
+}
